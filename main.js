@@ -1,16 +1,19 @@
 var favCars = [];
 
- favCars.push("Nissan" , "BMW" , "Lambo" , "Honda" , "Ferrari");
+ favCars.push("Lexus" , "BMW" , "Lambo" , "Honda" , "Ferrari");
 
 
  var iLoveFerrari = favCars.pop();
 
 
+var clothes = {};
+clothes.Italian = "Armani";
+clothes.American = "Levis";
 
 
-var Clothes = {};
-Clothes.Italian = "Armani";
-Clothes.American = "Levis";
+console.log(clothes);
 
 
-console.log(Clothes.Italian);
+clothes.Italian = "Versace";
+clothes.American = "Wrangler";
+console.log(clothes);
